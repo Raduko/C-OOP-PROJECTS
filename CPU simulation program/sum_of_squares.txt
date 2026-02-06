@@ -1,0 +1,23 @@
+MOV R1, 0     ; R1 = sum of squares (result)
+MOV R2, 1     ; 1 squared = 1
+ADD R1, R2    ; sum = 0 + 1 = 1
+MOV R2, 4     ; 2 squared = 4
+ADD R1, R2    ; sum = 1 + 4 = 5
+MOV R2, 9     ; 3 squared = 9
+ADD R1, R2    ; sum = 5 + 9 = 14
+MOV R2, 16    ; 4 squared = 16
+ADD R1, R2    ; sum = 14 + 16 = 30
+MOV R2, 25    ; 5 squared = 25
+ADD R1, R2    ; sum = 30 + 25 = 55
+MOV R2, 36    ; 6 squared = 36
+ADD R1, R2    ; sum = 55 + 36 = 91
+MOV R2, 49    ; 7 squared = 49
+ADD R1, R2    ; sum = 91 + 49 = 140
+MOV R2, 64    ; 8 squared = 64
+ADD R1, R2    ; sum = 140 + 64 = 204
+MOV R2, 81    ; 9 squared = 81
+ADD R1, R2    ; sum = 204 + 81 = 285
+MOV R2, 100   ; 10 squared = 100
+ADD R1, R2    ; sum = 285 + 100 = 385
+PRN R1        ; Print the result: 385
+HLT           ; Halt and show all registers
